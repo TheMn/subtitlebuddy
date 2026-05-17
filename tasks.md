@@ -7,9 +7,9 @@ This document outlines the step-by-step roadmap for building and expanding Subti
 The goal of the MVP phase is to create a functional, local web application capable of accepting media files, processing them to extract spoken text (specifically supporting English and Persian), and providing the user with a downloadable `.srt` file.
 
 ### 1. Project Initialization & Setup
-- [ ] Set up the standard FastAPI folder structure (e.g., `main.py`, `routers/`, `services/`, `static/`, `templates/`).
-- [ ] Define the base `requirements.txt` (`fastapi`, `uvicorn`, `faster-whisper`, `python-multipart`).
-- [ ] Create a basic FastAPI health check endpoint to verify the server runs.
+- [x] Set up the standard FastAPI folder structure (e.g., `main.py`, `routers/`, `services/`, `static/`, `templates/`).
+- [x] Define the base `requirements.txt` (`fastapi`, `uvicorn`, `faster-whisper`, `python-multipart`).
+- [x] Create a basic FastAPI health check endpoint to verify the server runs.
 
 ### 2. Basic Frontend UI
 - [ ] Create a simple HTML page with vanilla CSS and JS.
