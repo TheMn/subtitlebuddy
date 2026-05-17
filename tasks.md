@@ -12,10 +12,10 @@ The goal of the MVP phase is to create a functional, local web application capab
 - [x] Create a basic FastAPI health check endpoint to verify the server runs.
 
 ### 2. Basic Frontend UI
-- [ ] Create a simple HTML page with vanilla CSS and JS.
-- [ ] Add a file upload form that accepts audio/video files.
-- [ ] Implement UI logic to show a simple "Processing... please wait" message when a file is submitted.
-- [ ] Handle the backend response to allow the user to download the generated file.
+- [x] Create a simple HTML page with vanilla CSS and JS.
+- [x] Add a file upload form that accepts audio/video files.
+- [x] Implement UI logic to show a simple "Processing... please wait" message when a file is submitted.
+- [x] Handle the backend response to allow the user to download the generated file.
 
 ### 3. Core Transcription Logic (Audio Only)
 - [ ] Integrate `faster-whisper` (or standard `openai-whisper`) into the backend services.
