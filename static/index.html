@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subtitle Buddy</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Subtitle Buddy</h1>
+            <p>Generate subtitles for your audio and video files effortlessly.</p>
+        </header>
+
+        <main>
+            <div class="upload-card">
+                <form id="uploadForm">
+                    <div class="file-input-wrapper">
+                        <label for="mediaFile" class="file-label">
+                            <span id="fileNameDisplay">Choose a file...</span>
+                            <input type="file" id="mediaFile" name="file" accept="audio/*,video/*" required>
+                        </label>
+                    </div>
+                    <button type="submit" id="submitBtn" class="btn">Generate Subtitles</button>
+                </form>
+
+                <div id="statusMessage" class="status hidden">
+                    <div class="spinner"></div>
+                    <p>Processing... please wait.</p>
+                </div>
+
+                <div id="successMessage" class="status success hidden">
+                    <p>Subtitles generated successfully!</p>
+                </div>
+
+                <div id="errorMessage" class="status error hidden">
+                    <p>An error occurred while generating subtitles. Please try again.</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
