@@ -18,11 +18,11 @@ The goal of the MVP phase is to create a functional, local web application capab
 - [x] Handle the backend response to allow the user to download the generated file.
 
 ### 3. Core Transcription Logic (Audio Only)
-- [ ] Integrate `faster-whisper` (or standard `openai-whisper`) into the backend services.
-- [ ] Create a FastAPI endpoint to accept audio uploads (e.g., `.mp3`, `.wav`).
-- [ ] Process the audio file through the model to generate transcription segments.
-- [ ] Write a utility function to format the transcription segments into standard `.srt` format (sequence number, start/end timestamps, text).
-- [ ] Return the generated `.srt` content as a downloadable file response to the frontend.
+- [x] Integrate `faster-whisper` (or standard `openai-whisper`) into the backend services.
+- [x] Create a FastAPI endpoint to accept audio uploads (e.g., `.mp3`, `.wav`).
+- [x] Process the audio file through the model to generate transcription segments.
+- [x] Write a utility function to format the transcription segments into standard `.srt` format (sequence number, start/end timestamps, text).
+- [x] Return the generated `.srt` content as a downloadable file response to the frontend.
 
 ### 4. Video Support Expansion
 - [ ] Integrate an `ffmpeg` python wrapper or standard `subprocess` calls in the backend.
